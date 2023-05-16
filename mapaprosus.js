@@ -232,10 +232,9 @@ $(".menu-item .menu-link").on("click", function(e){
 			limpaDivFiltros();
 			addFiltros(1,'qvfiltro filtroContainer', '#page3 > .filtroSelecoes');
 		    break;
-		case "#page4": //ENSINO FUNDAMENTAL
-		  	//app.getObject('CurrentSelections','CurrentSelections');
+		case "#page4": // Internações (Saúde Mental)
+		  	
 		  	app.getObject('QVFILTROS-00','JUWnfv');
-		  	//app.getObject('QVFILTROS-01','qVXype');
 			app.getObject('QVBTNFDM01','TZUBxY');
 			app.getObject('QVBTNFDM02','VKhbT');
 			app.getObject('QVBTNFDM03','pszHew');
@@ -246,13 +245,14 @@ $(".menu-item .menu-link").on("click", function(e){
 			app.getObject('QVBTNFDM08','eMpUYm');
 			app.getObject('QVBTNFDM09','qYHhM');
 			app.getObject('QVBTNFDM10','ZvUhFH');
-			app.getObject('KPI14','88216588-95b5-4fa9-9880-c2dd8b5e2d12');
-			app.getObject('KPI15','699a9f28-e671-4b5b-972c-093a9afb3aa6');
-			app.getObject('KPI16','31284858-8d53-426c-9327-8dd2f8c9187c');
-			app.getObject('KPI16-1','vXJYS');
-			buscaObjeto('QV06','804d8bce-5928-4fb4-85f2-c3ed18c5917c');
-			buscaObjeto('QV07','Hwvef');
-			buscaObjeto('QV08','abtHypc');
+			app.getObject('KPI14','WPFcJVX');
+			app.getObject('KPI15','a805dd4f-df27-4fe5-9b41-e7f3fa252234');
+			app.getObject('KPI16','MjhhqQW');
+			app.getObject('KPI16-1','RqCbAJ');
+			app.getObject('KPI16-2','926c2e79-55de-488f-af8c-da30138ad2fc');
+			buscaObjeto('QV06','Hwvef');
+			buscaObjeto('QV07','PYyaL');
+			buscaObjeto('QV08','jkzPPJ');
 			//buscaObjeto('QV09','wjNdUd');
 			buscaObjeto('QV10','SyLpmS');
 			buscaObjeto('QV11','bFFnRJ');
