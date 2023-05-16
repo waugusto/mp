@@ -1,0 +1,331 @@
+@media (min-width: 1080px){
+	.conteudo {
+		position: fixed;
+		left: 250px;
+		width: 81.8%;
+		height: 100%;
+		transition: 0.3s;
+		overflow: auto;
+		padding-bottom: 81px;
+	}
+}
+@media only screen and (min-width: 1440px) {
+	.conteudo {
+		position: fixed;
+		left: 250px;
+		width: 87%;
+	}
+}
+
+.qvSeletor {
+    width: 30%;
+    height: 35px;   
+    font-size: 6%;
+    display: flex;
+    margin: 0;
+    padding: 0;	
+	/* background: linear-gradient(to right, #1a4a96, #2672ec); */
+}
+.qvBTN {
+    width: 16%;
+    height: 40px;
+    float: left;
+    font-size: 6%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.btnSelecoesFiltros {
+    position: relative;
+    left: 14px;
+    top: -14px;
+}
+.qvUltimacarga {
+    color: #511e7c;
+}
+.fontedosDados {
+    position: absolute;
+    margin: 0 auto;
+    bottom: 10px;
+    font-size: 1em;
+    padding: 10px;
+}
+
+/*#######################################
+              CARDS KPI
+#######################################*/
+.card {
+   
+    border-radius: 10px;
+    border: none;
+    
+    position: relative;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 5%); 
+    box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 5%);
+    
+    overflow: hidden;
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+}
+.card .card-icon {
+    text-align: center;
+    line-height: 50px;
+    margin-left: 15px;
+    color: #000;
+    position: absolute;
+    right: -25px;
+    top: 20px;
+    opacity: 0.1;
+}
+.card .card-icon-large {
+     width: 110px; 
+     height: 50px; 
+    text-shadow: 3px 7px rgb(0 0 0 / 30%);
+}
+.card .card-icon-large .fas,
+.card .card-icon-large .far,
+.card .card-icon-large .fab,
+.card .card-icon-large .fal {
+    font-size: 80px;
+}
+.kpi-value .ellips-text {
+    color: #fff;
+    font-size: 30px;
+}
+.qvKPI {
+border: none;
+}
+.card-azul {
+    background: linear-gradient(to right, #1a4a96, #2672ec) !important;    
+}
+.card-verde{
+    background: linear-gradient(to right, #0a7351 , #029666) !important;
+}
+.card-amarelo {
+    background: linear-gradient(to right, #f76a2d, #ffba56) !important;
+}
+.card-vermelho {
+    background: linear-gradient(to right, #f93a5a, #e45b72) !important;    
+}
+
+.fontedosdados {
+    color: #2f2570;
+    font-size: 0.69em;
+    position: relative;
+    right: 20px;
+    top: 2px;
+}
+
+
+#page1 .qvKPI .sn-kpi-ellips-text {
+    font-size: 23px !important;
+    font-weight: bold;
+	color: #5b1980;
+}
+#page1 .qvKPI .sn-kpi-measure-title.sn-kpi-ellips-text{
+	font-size: 10px !important;
+	font-weight: normal;
+	color: #878787;
+}
+/*#page1 .col-sm-9 {
+    padding-left: 30px;
+}*/
+
+#page1 .qvGrafico {
+    height: 290px !important
+}
+#page1 .content-fullscreen {
+    min-height: 250px;
+}
+
+#page5 .qvfiltro.filtroContainer {
+    height: 135px;
+}
+
+
+td, th {
+   /*border: 1px solid #dddddd;*/
+   border: none;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: transparent;
+}
+
+.export_data.export_data_excel {
+    right: 50px;
+}
+.export_data {
+    top: -2px;
+    right: 25px;
+}
+
+.panel-kpi-grid {
+    display: flex;
+    flex-direction: row;
+}
+.panel-card {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    transition: box-shadow 0.2s ease-in-out;
+    background-color: #fff;
+    width: 100%;
+    margin: 10px;
+}
+/*---------------------------- FullScreened -----------------------------*/
+
+.fullscreened{
+    z-index: 9999; 
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    margin: 0;
+    top: 0; 
+    left: 0; 
+    overflow-y: hidden;
+    background: #fff;
+    cursor: pointer;
+    -webkit-transition: width 2s ease-in-out;
+    -moz-transition: width 2s ease-in-out;
+    -o-transition: width 2s ease-in-out;
+    transition: width 2s ease-in-out;
+ }
+ .fullscreened > .content-fullscreen .qvobject{
+    height: 900px;
+    height: calc(100% - (20px + 30px + 20px)) !important;
+    height: calc(600px) !important;
+ }
+.fullscreened .header-fullscreen{
+    position: relative;
+}
+.fullscreened .qvplaceholder{
+  height: 92vh;
+}
+
+
+p.modal-subtitle {
+    margin: -10px 0 0 10px;
+    font-size: 0.8em;
+}
+
+.logo-mpdft {
+    max-width: 167px;
+    max-height: 60px;
+    margin-right: 15px;
+}
+.logo-see {
+    max-width: 200px;
+    width: 100%;
+}
+
+.modos-link-pdf {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+@media (min-width: 768px){
+	#page1 .qvGrafico {
+   	 height: 600px !important;
+	}
+}
+@media (min-width: 1024px){
+	#page1 .qvGrafico {
+   	 height: 570px !important;
+	}
+}
+@media (min-width: 1200px){
+	#page1 .qvGrafico {
+   	 height: 470px !important;
+	}
+}
+@media (min-width: 1400px){
+	#page1 .qvGrafico {
+		height: 400px !important;
+	}
+}
+
+
+
+.youtube-titulo {
+    margin: 15px 0;
+}
+.youtube-links iframe {
+    width: 100%;
+	height: 300px;
+}
+.IDEB-youtube-links iframe {
+    width: 30%;
+	height: 200px;
+}
+.qvfiltro.filtroContainer {
+    /*height: 220px;*/
+	height: 180px;
+}
+
+
+.panel-kpi-grid, .panel-graphic-grid {
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 1080px){
+	.panel-kpi-grid,
+	.panel-graphic-grid {
+		display: flex;
+		flex-direction: column;
+	}
+}
+.panel-card .panel-controls-export {
+    display: flex;
+    justify-content: end;
+    border-bottom: 1px solid #d2dcdd;
+    padding: 5px 5px;
+}
+.panel-card .panel-controls-export button {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 0;
+    background: lightgrey;
+    margin: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panel-card .panel-controls-export button.pdf:hover {
+    background-color: #F40F02;
+    color: #fff;
+    cursor: pointer;
+}
+.panel-card .panel-controls-export button.excel:hover {
+    background-color: #1D6F42;
+    color: #fff;
+    cursor: pointer;
+}
+.panel-card .panel-controls-export button.fullscreen:hover {
+    background-color: #028ef4;
+    color: #fff;
+    cursor: pointer;
+}
+.panel-card .panel-controls-export button.saibamais:hover {
+    background-color: #ffd43b;
+    color: #fff;
+    cursor: pointer;
+}
+
+.barraSelecoes {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+p.loadCarregando {
+    margin: 40px 0 0 -45px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
