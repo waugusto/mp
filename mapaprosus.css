@@ -329,3 +329,12 @@ p.loadCarregando {
     top: 50%;
     left: 50%;
 }
+
+/* EDIÇÕES EM HOMOLOGAÇÃO */
+
+.navegacao-esquerda .menu-item.active .menu-link {
+    color: #c55853!important;
+}
+.navegacao-esquerda .menu-item .menu-link:hover {
+    color: #c55853;
+}
