@@ -309,7 +309,7 @@ $(".menu-item .menu-link").on("click", function(e){
 			app.getObject('KPI03','c2697a5d-f4d9-4fc0-940f-5a1bdae73f3a');
 			app.getObject('KPI04','28a20aaf-bb57-481e-804b-6fcf01e8f89d');
 			app.getObject('KPI04-1','pRtUWKp');
-			buscaObjeto('QV01','LjxRp');
+			buscaObjeto('QV01','tMEgCG');
 			limpaDivFiltros();
 			addFiltros(1,'qvfiltro filtroContainer', '#page1 > .top-inside-page .filtroSelecoes');
 		}
