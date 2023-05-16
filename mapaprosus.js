@@ -251,7 +251,7 @@ $(".menu-item .menu-link").on("click", function(e){
 			app.getObject('KPI16','31284858-8d53-426c-9327-8dd2f8c9187c');
 			app.getObject('KPI16-1','vXJYS');
 			buscaObjeto('QV06','804d8bce-5928-4fb4-85f2-c3ed18c5917c');
-			buscaObjeto('QV07','afd2a5fc-0da7-4845-9322-8256e4d69e56');
+			buscaObjeto('QV07','Hwvef');
 			buscaObjeto('QV08','abtHypc');
 			//buscaObjeto('QV09','wjNdUd');
 			buscaObjeto('QV10','SyLpmS');
