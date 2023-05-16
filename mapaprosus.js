@@ -7,7 +7,7 @@
  */
 var prefix = window.location.pathname.substr( 0, window.location.pathname.toLowerCase().lastIndexOf( "/extensions" ) + 1 );
 var config = {
-	host: window.location.hostname,
+	host: 'paineis-ext.mpdft.mp.br',
 	prefix: prefix,
 	port: window.location.port,
 	isSecure: window.location.protocol === "https:"
